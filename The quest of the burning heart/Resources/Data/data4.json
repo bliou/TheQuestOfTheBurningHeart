@@ -1,0 +1,66 @@
+{
+  "startState": {
+    "state": 1
+  },
+  "bonusLevel": false,
+  "sounds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "musics": [
+    "level1.ogg"
+  ],
+  "levelTitle": "Level 1-3",
+  "layer": {
+    "texture": "Niveau1/layer2.png"
+  },
+  "specificData": [
+    {
+      "id": "g10",
+      "widthNumber": 10,
+      "heightNumber": 3,
+      "isOneSided": false
+    },
+    {
+      "id": "g11",
+      "widthNumber": 19,
+      "heightNumber": 2,
+      "isOneSided": false
+    },
+    {
+      "id": "g12",
+      "widthNumber": 6,
+      "heightNumber": 2,
+      "isOneSided": true
+    },
+    {
+      "id": "g13",
+      "widthNumber": 44,
+      "heightNumber": 2,
+      "isOneSided": false
+    },
+    {
+      "id": "g14",
+      "widthNumber": 5,
+      "heightNumber": 1,
+      "isOneSided": true
+    },
+    {
+      "id": "g15",
+      "widthNumber": 15,
+      "heightNumber": 1,
+      "isOneSided": true
+    },
+    {
+      "id": "ht0",
+      "helperContent": "Sometimes, looking back is the\nbest solution"
+    },
+    {
+      "id": "ht1",
+      "helperContent": "The flag is a save point.\nIf you die, you will start from there"
+    }
+  ]
+}

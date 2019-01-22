@@ -1,0 +1,32 @@
+{
+  "startState": {
+    "state": 1
+  },
+  "bonusLevel": false,
+  "sounds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "musics": [
+    "level1.ogg"
+  ],
+  "levelTitle": "Boss 1",
+  "layer": {
+    "texture": "Niveau1/layer3.png"
+  },
+  "specificData": [
+    {
+      "id": "g10",
+      "widthNumber": 20,
+      "heightNumber": 1,
+      "isOneSided": false
+    },
+    {
+      "id": "t3a",
+      "layer": 2
+    }
+  ]
+}
