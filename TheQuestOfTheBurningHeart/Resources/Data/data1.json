@@ -1,0 +1,33 @@
+{
+  "startState": {
+    "state": 0,
+    "data": "animation1.json"
+  },
+  "bonusLevel": false,
+  "levelTitle": "Introduction",
+  "sounds": [
+    5
+  ],
+  "musics": [
+    "intro.ogg"
+  ],
+  "layer": {
+    "texture": "Niveau1/layer1.png"
+  },
+  "specificData": [
+    {
+      "id": "gz0",
+      "widthNumber": 100,
+      "heightNumber": 1,
+      "isOneSided": false
+    },
+    {
+      "id": "t38",
+      "layer": 2
+    },
+    {
+      "id": "t39",
+      "layer": 2
+    }
+  ]
+}

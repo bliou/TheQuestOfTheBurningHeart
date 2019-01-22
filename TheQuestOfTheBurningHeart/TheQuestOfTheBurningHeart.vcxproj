@@ -531,6 +531,28 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="openal32.dll" />
+    <None Include="Resources\Animations\animation1.json" />
+    <None Include="Resources\Data\data1.json" />
+    <None Include="Resources\Data\data2.json" />
+    <None Include="Resources\Data\data3.json" />
+    <None Include="Resources\Data\data4.json" />
+    <None Include="Resources\Data\data5.json" />
+    <None Include="Resources\Data\data6.json" />
+    <None Include="Resources\Data\data7.json" />
+    <None Include="Resources\Saves\config.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Resources\Fonts\arial.ttf" />
+    <Font Include="Resources\Fonts\curlz.TTF" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Resources\Maps\map1.txt" />
+    <Text Include="Resources\Maps\map2.txt" />
+    <Text Include="Resources\Maps\map3.txt" />
+    <Text Include="Resources\Maps\map4.txt" />
+    <Text Include="Resources\Maps\map5.txt" />
+    <Text Include="Resources\Maps\map6.txt" />
+    <Text Include="Resources\Maps\map7.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
