@@ -221,7 +221,7 @@
     <ClCompile Include="GameScreenLoadingThread.cpp" />
     <ClCompile Include="GameScreenPauseState.cpp" />
     <ClCompile Include="GameScreenRunningState.cpp" />
-    <ClCompile Include="GameScreenState.cpp" />
+    <ClCompile Include="AbstractGameScreenState.cpp" />
     <ClCompile Include="GameSnakeData.cpp" />
     <ClCompile Include="GameTitleScreen.cpp" />
     <ClCompile Include="GetAnimationEntitySystem.cpp" />

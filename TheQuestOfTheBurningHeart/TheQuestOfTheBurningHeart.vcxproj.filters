@@ -13,1073 +13,674 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Fichiers d%27en-tête\Components">
+      <UniqueIdentifier>{998859df-6dba-4a8d-ae53-f351a04e3aa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Components\Actions">
+      <UniqueIdentifier>{7390bda7-4eca-475a-8ce7-680231d42cea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Components\Animations">
+      <UniqueIdentifier>{e1b933db-3435-4096-8418-8e9d28d9bd2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Components\Characters">
+      <UniqueIdentifier>{68069299-a6d2-4f81-b9cf-c1e88b70c7b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Components\Characters\Monsters">
+      <UniqueIdentifier>{086cd710-234d-48ea-b260-fd33c6d95d5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Components\Characters\Players">
+      <UniqueIdentifier>{13205a2e-b37d-40cc-b185-3e8db955db1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Components\Data">
+      <UniqueIdentifier>{94ccaac9-d156-465b-afca-4ca6ddd97075}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Components\Collisions">
+      <UniqueIdentifier>{233be50a-72df-4801-8446-f8086208b760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Components\Layers">
+      <UniqueIdentifier>{1cc780a7-da70-41d7-8652-dab7ae50ff74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Components\Patterns">
+      <UniqueIdentifier>{2f0b6a15-9010-48c0-a0a8-51aaabf0933c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Components\Patterns\Attacks">
+      <UniqueIdentifier>{47ac1be6-53ab-4f13-94cc-113b311b63fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Components\Patterns\Bosses">
+      <UniqueIdentifier>{add9f9bb-b81a-45fc-b4da-541b8b329877}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Components\Patterns\Movements">
+      <UniqueIdentifier>{d4284636-7aeb-40d6-be32-d15d1f3e6b6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Components\Projectiles">
+      <UniqueIdentifier>{604d4596-d5e7-4700-9562-e671ce339542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Components\Tiles">
+      <UniqueIdentifier>{0a3efcb5-eb00-4870-8cab-89895303f212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Components\Triggers">
+      <UniqueIdentifier>{0a226bf5-6b8d-4e48-b243-94655beaa999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Factories">
+      <UniqueIdentifier>{29c158d3-6566-4bd6-bab1-f3ccd534d1bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Helpers">
+      <UniqueIdentifier>{a755773a-5a35-49d3-a784-e9598bb5e8c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Loaders">
+      <UniqueIdentifier>{22078b7d-82e3-4e54-9b1b-9e63ca7b12a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Managers">
+      <UniqueIdentifier>{a8325cc0-55c3-4163-baa6-b5440da51bc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Systems">
+      <UniqueIdentifier>{9357855e-f10d-4585-9d25-b847e8bb5729}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Systems\Actions">
+      <UniqueIdentifier>{e1021b77-6a44-4df5-be33-0e406df1a1b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Systems\Animations">
+      <UniqueIdentifier>{ec4abe43-7206-44d4-a39b-2e34ba737338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Systems\Characters">
+      <UniqueIdentifier>{7319a8ad-6595-4566-b77a-b9e2f7d595e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Systems\Collisions">
+      <UniqueIdentifier>{24e94d06-0291-44b3-a2da-c29aef29ff95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Systems\Getters">
+      <UniqueIdentifier>{06babcd1-bc4c-4bff-b35b-d9f2e01017a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Systems\Inputs">
+      <UniqueIdentifier>{39ddc614-35f4-4c67-8658-86a0425e87df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Systems\Patterns">
+      <UniqueIdentifier>{6d7288ff-244a-4b30-a755-e00de9f5585f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Systems\Physics">
+      <UniqueIdentifier>{5ecb37df-82bd-4691-9d52-7e9f891fbcef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Systems\Projectiles">
+      <UniqueIdentifier>{37ef7e68-04d2-4d06-a604-62fce6315e5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Systems\Rendering">
+      <UniqueIdentifier>{75fae362-a838-4876-9161-b4620f2e5b98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Systems\Tiles">
+      <UniqueIdentifier>{4e959424-e246-40ec-a962-3bce8fced5a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Systems\Patterns\Attacks">
+      <UniqueIdentifier>{f8427772-50f7-4d69-840d-3d70e0fb4b9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Systems\Patterns\Movements">
+      <UniqueIdentifier>{9ea1c921-b88a-4d56-99b6-92cbe79ba415}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Screens">
+      <UniqueIdentifier>{cc48505e-a014-452d-bc76-40ec3b1518ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Screens\States">
+      <UniqueIdentifier>{a9fb1067-8fc1-4928-b532-afd824b5075b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Data">
+      <UniqueIdentifier>{303e9911-c2f9-48e7-9068-b3860672cb6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Data\Actions">
+      <UniqueIdentifier>{97400438-4fc7-48e5-b6ee-8f3a6f6055c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Data\Characters">
+      <UniqueIdentifier>{a508667d-1da7-42c7-ba1d-92741edc1981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Data\Characters\Players">
+      <UniqueIdentifier>{570521dd-1c9e-454f-8576-924aa5a24be2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Data\Characters\Monsters">
+      <UniqueIdentifier>{fab9f21b-f47f-42f9-91e4-02e7b2621146}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Data\Characters\Monsters\ChickenBosses">
+      <UniqueIdentifier>{7ac8dff4-343a-4435-ac92-1d5d9ea88578}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Data\Characters\Monsters\Chickens">
+      <UniqueIdentifier>{38ad3247-802d-423a-af97-37c75a9c7447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Data\Characters\Monsters\Rats">
+      <UniqueIdentifier>{4251163c-8895-4ea7-8c67-a1e09ea5a85a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Data\Characters\Monsters\Snakes">
+      <UniqueIdentifier>{b499e8c4-2301-4ce5-9fed-ec518a249c90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Data\Layers">
+      <UniqueIdentifier>{9bbd0b79-2f56-4e02-8026-e6ceb267de10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Data\Projectiles">
+      <UniqueIdentifier>{cc2d78a1-f4b1-4a87-b4a0-351e8c1f7112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Data\Tiles">
+      <UniqueIdentifier>{c506b488-77e5-4792-a300-dc19ab1ac72f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Data\Tiles\SlopeTiles">
+      <UniqueIdentifier>{f94bf4e0-2059-4718-940f-8ff415f0c0b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Data\Tiles\BlockTiles">
+      <UniqueIdentifier>{1b648f46-ed2b-42d0-8b44-dcbefe4e90de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Data\Tiles\BlockTiles\SensorTiles">
+      <UniqueIdentifier>{bdd17565-4039-4738-8810-c7364547e073}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Data">
+      <UniqueIdentifier>{d45924e3-aca8-4c07-a35f-e4e2e2d66efa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Factories">
+      <UniqueIdentifier>{bbe22142-fc2c-4a78-be75-f5196f2718f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Loaders">
+      <UniqueIdentifier>{37f6aa20-1586-4a3e-881b-41e1965da513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Managers">
+      <UniqueIdentifier>{4f854682-8844-4c39-98a2-3d8bf135b9e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Screens">
+      <UniqueIdentifier>{fb3074be-80cf-44cc-a885-ca4fd87bc6b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Systems">
+      <UniqueIdentifier>{534d8615-7e4b-495f-91b3-a4b2dcd2bc3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Screens\States">
+      <UniqueIdentifier>{aa730cd2-be70-4b4b-ac4a-49a31eb79eb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Data\Actions">
+      <UniqueIdentifier>{c1a4ce4e-7715-448b-b151-17f8a008c700}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Data\Characters">
+      <UniqueIdentifier>{3689b9dc-b9e5-41e7-8a7f-a0a49ca5f51b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Data\Layers">
+      <UniqueIdentifier>{fc666a51-dd4a-4c8a-80b9-0654cc614a9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Data\Projectiles">
+      <UniqueIdentifier>{eddc54dc-dc21-49a8-a35c-bcb3cf7ddc47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Data\Tiles">
+      <UniqueIdentifier>{3818b5fa-bc14-4192-83c8-827771af0bc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Data\Characters\Monsters">
+      <UniqueIdentifier>{cf8c8eda-d87d-460c-885b-72ceab4702c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Data\Characters\Players">
+      <UniqueIdentifier>{34ccc2d2-79da-4063-9836-9edf9a09a06c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Data\Characters\Monsters\ChickentBosses">
+      <UniqueIdentifier>{3da432cd-016a-4d52-8c95-b4de7d173b4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Data\Characters\Monsters\Chickens">
+      <UniqueIdentifier>{fef5b269-8630-453f-a359-809b091b6848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Data\Characters\Monsters\Snakes">
+      <UniqueIdentifier>{cdd0822e-e269-4a80-ac5b-94a4d434646e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Data\Characters\Monsters\Rats">
+      <UniqueIdentifier>{530bbd52-c2e7-470a-9735-f0c2c032b1b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Data\Tiles\SlopeTiles">
+      <UniqueIdentifier>{2fc62155-54b0-4ca7-bbd6-dfd15c64ee67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Data\Tiles\BlockTiles">
+      <UniqueIdentifier>{b34bb748-173e-416f-8653-e8c0c14688c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Data\Tiles\BlockTiles\SensorTiles">
+      <UniqueIdentifier>{f0e17fba-50e7-4042-bb1e-461cfc0ec274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Systems\Actions">
+      <UniqueIdentifier>{248315d5-b40d-427e-b811-b6a6116abf46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Systems\Animations">
+      <UniqueIdentifier>{6fb1754f-75e9-4d3a-9a6a-bc18eb27611d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Systems\Characters">
+      <UniqueIdentifier>{aee86265-c036-425b-bcbd-92a26cdf4e36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Systems\Collisions">
+      <UniqueIdentifier>{609c2fff-cb84-4187-988e-d925df3c71d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Systems\Getters">
+      <UniqueIdentifier>{924e6186-e794-481c-9e9e-b87b2b93e904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Systems\Inputs">
+      <UniqueIdentifier>{7d3a5c19-1a55-4d04-b886-37593a970719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Systems\Patterns">
+      <UniqueIdentifier>{bb4edeb9-25b2-4e57-9427-69c3c62b16ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Systems\Physics">
+      <UniqueIdentifier>{cf02e332-a373-462d-a6c1-5b533c11391b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Systems\Projectiles">
+      <UniqueIdentifier>{bfc1edc3-4eb5-4a9d-b376-de9723a29ccf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Systems\Rendering">
+      <UniqueIdentifier>{a675271b-47e9-4678-9dcf-c422f6b9c397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Systems\Tiles">
+      <UniqueIdentifier>{973b7d17-921a-462f-b837-c7250891fec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Systems\Patterns\Attacks">
+      <UniqueIdentifier>{326a09be-af20-48ac-a45b-7d827cfc8136}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Systems\Patterns\Movements">
+      <UniqueIdentifier>{9102c356-2e63-4027-8768-c790e747abaa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TheQuestOfTheBurningHeart.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="AbstractCharacterData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="AbstractChickenBossData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="AbstractChickenData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="AbstractEntityData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="AbstractLayerData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="AbstractMonsterData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="AbstractPlayerData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="AbstractProjectileData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="AbstractRatData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="AbstractScreen.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="AbstractSensorTileData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="AbstractShapeEntityData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="AbstractSlopeTileData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="AbstractSnakeData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="AbstractSolidBlockTileData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="AbstractSpriteEntityData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="AbstractTileData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="ActivateTileAnimationSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="AnimationActionFactory.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="AnimationPlayerData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="AnimationRatData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="AnimationSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
     <ClCompile Include="b2GLDraw.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="BonusTileData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="BreakableTileData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="CameraSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="CharacterAnimationSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="CharacterFootAdjustmentSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="CharacterMovingTileSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="CharacterPhysicSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="CharacterSlopeTileSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="CheckpointTileData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="ChickenBossProjectileData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="ClearDyingMonstersSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="CloseAttackSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="ConfigManager.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
     <ClCompile Include="ContactsListener.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="CreditsScreen.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="DecorativeTileData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="DefaultStatesSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="DialogData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="DialogInputSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="DialogRenderingSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="DialogSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="DoorTileData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="DoorTileInputSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="DrawableRenderingSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="ElementalTileData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="EndCloseAttackCollisionSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="EndEntityCollisionSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="EndFallingSensorCollisionSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="EndFootCollisionSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="EndMonsterSensorCollisionSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="EndPlayerTileCollisionSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="FixLayerData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="FixLayerRenderingSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="FontsManager.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="GameChickenBossData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="GameChickenData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="GamePlayerData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="GameRatData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="GameScreen.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="GameScreenAnimationState.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="GameScreenDeadPlayerState.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="GameScreenInformationState.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="GameScreenLoader.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="GameScreenLoadingState.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="GameScreenLoadingThread.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="GameScreenPauseState.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="GameScreenRunningState.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="GameScreenState.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="GameSnakeData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="GameTitleScreen.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="GetAnimationEntitySystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="GetEntitiesIdByDataIdSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="GetPlayerSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="GetTileIdByPositionSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="GroundCharacterAnimationSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="GroundCharacterStateSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="GroupSolidBlockTileData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="GroupSolidSlopeTileData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="GroupTileSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="HelperTileData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="HelperTileInputSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="HelperTileRenderingSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="InfiniteMovementSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="InputManager.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="KillSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="KirbabyData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="MapManager.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="MonsterActivatorCollisionSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="MonsterRenderingSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="MusicsManager.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="NoPhysicBlockTileData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="PhysicFactory.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="PhysicToPositionSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="PlayerDataRenderingSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="PlayerElementalTypeAnimationSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="PlayerElementalTypeSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="PlayerInputSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="ProjectileClearSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="ProjectileCollisionSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="ProjectilePhysicSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="ProjectileSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="RangeAttackSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="RectangleTransitionData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="ResetTileRenderingSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="ResetTileSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="ScreenCollisionSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="ScreensManager.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="SensorBlockTileData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="SensorSlopeTileData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="SolidBlockTileData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="SolidSlopeTileData.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="SoundsManager.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="SpriteRenderingSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="StartCloseAttackCollisionSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="StartEntityCollisionSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="StartFallingSensorCollisionSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="StartFootCollisionSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="StartMonsterSensorCollisionSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="StartPlayerTileCollisionSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="StartRangeAttackCollisionSystem.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
     <ClCompile Include="stdafx.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
+    <ClCompile Include="AbstractScreen.cpp">
+      <Filter>Fichiers sources\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="CreditsScreen.cpp">
+      <Filter>Fichiers sources\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreenAnimationState.cpp">
+      <Filter>Fichiers sources\Screens\States</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreenDeadPlayerState.cpp">
+      <Filter>Fichiers sources\Screens\States</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreenInformationState.cpp">
+      <Filter>Fichiers sources\Screens\States</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreenLoadingState.cpp">
+      <Filter>Fichiers sources\Screens\States</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreenPauseState.cpp">
+      <Filter>Fichiers sources\Screens\States</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreenRunningState.cpp">
+      <Filter>Fichiers sources\Screens\States</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractGameScreenState.cpp">
+      <Filter>Fichiers sources\Screens\States</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreenLoader.cpp">
+      <Filter>Fichiers sources\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreenLoadingThread.cpp">
+      <Filter>Fichiers sources\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTitleScreen.cpp">
+      <Filter>Fichiers sources\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreen.cpp">
+      <Filter>Fichiers sources\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractCharacterData.cpp">
+      <Filter>Fichiers sources\Data\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractChickenBossData.cpp">
+      <Filter>Fichiers sources\Data\Characters\Monsters\ChickentBosses</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractChickenData.cpp">
+      <Filter>Fichiers sources\Data\Characters\Monsters\Chickens</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractEntityData.cpp">
+      <Filter>Fichiers sources\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractLayerData.cpp">
+      <Filter>Fichiers sources\Data\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractMonsterData.cpp">
+      <Filter>Fichiers sources\Data\Characters\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractPlayerData.cpp">
+      <Filter>Fichiers sources\Data\Characters\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractProjectileData.cpp">
+      <Filter>Fichiers sources\Data\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractRatData.cpp">
+      <Filter>Fichiers sources\Data\Characters\Monsters\Rats</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractSensorTileData.cpp">
+      <Filter>Fichiers sources\Data\Tiles\BlockTiles\SensorTiles</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractShapeEntityData.cpp">
+      <Filter>Fichiers sources\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractSlopeTileData.cpp">
+      <Filter>Fichiers sources\Data\Tiles\SlopeTiles</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractSnakeData.cpp">
+      <Filter>Fichiers sources\Data\Characters\Monsters\Snakes</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractSolidBlockTileData.cpp">
+      <Filter>Fichiers sources\Data\Tiles\BlockTiles</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractSpriteEntityData.cpp">
+      <Filter>Fichiers sources\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractTileData.cpp">
+      <Filter>Fichiers sources\Data\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationPlayerData.cpp">
+      <Filter>Fichiers sources\Data\Characters\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationRatData.cpp">
+      <Filter>Fichiers sources\Data\Characters\Monsters\Rats</Filter>
+    </ClCompile>
+    <ClCompile Include="BonusTileData.cpp">
+      <Filter>Fichiers sources\Data\Tiles\BlockTiles\SensorTiles</Filter>
+    </ClCompile>
+    <ClCompile Include="BreakableTileData.cpp">
+      <Filter>Fichiers sources\Data\Tiles\BlockTiles</Filter>
+    </ClCompile>
     <ClCompile Include="TexturesManager.cpp">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers sources\Managers</Filter>
     </ClCompile>
-    <ClCompile Include="TilePhysicSystem.cpp">
-      <Filter>Fichiers sources</Filter>
+    <ClCompile Include="SoundsManager.cpp">
+      <Filter>Fichiers sources\Managers</Filter>
     </ClCompile>
-    <ClCompile Include="TimedMovementSystem.cpp">
-      <Filter>Fichiers sources</Filter>
+    <ClCompile Include="ScreensManager.cpp">
+      <Filter>Fichiers sources\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicsManager.cpp">
+      <Filter>Fichiers sources\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManager.cpp">
+      <Filter>Fichiers sources\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Fichiers sources\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckpointTileData.cpp">
+      <Filter>Fichiers sources\Data\Tiles\BlockTiles\SensorTiles</Filter>
+    </ClCompile>
+    <ClCompile Include="ChickenBossProjectileData.cpp">
+      <Filter>Fichiers sources\Data\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="DecorativeTileData.cpp">
+      <Filter>Fichiers sources\Data\Tiles\BlockTiles</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogData.cpp">
+      <Filter>Fichiers sources\Data\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="DoorTileData.cpp">
+      <Filter>Fichiers sources\Data\Tiles\BlockTiles\SensorTiles</Filter>
+    </ClCompile>
+    <ClCompile Include="ElementalTileData.cpp">
+      <Filter>Fichiers sources\Data\Tiles\BlockTiles\SensorTiles</Filter>
+    </ClCompile>
+    <ClCompile Include="FixLayerData.cpp">
+      <Filter>Fichiers sources\Data\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameChickenBossData.cpp">
+      <Filter>Fichiers sources\Data\Characters\Monsters\ChickentBosses</Filter>
+    </ClCompile>
+    <ClCompile Include="GameChickenData.cpp">
+      <Filter>Fichiers sources\Data\Characters\Monsters\Chickens</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlayerData.cpp">
+      <Filter>Fichiers sources\Data\Characters\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRatData.cpp">
+      <Filter>Fichiers sources\Data\Characters\Monsters\Rats</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSnakeData.cpp">
+      <Filter>Fichiers sources\Data\Characters\Monsters\Snakes</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupSolidBlockTileData.cpp">
+      <Filter>Fichiers sources\Data\Tiles\BlockTiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupSolidSlopeTileData.cpp">
+      <Filter>Fichiers sources\Data\Tiles\SlopeTiles</Filter>
+    </ClCompile>
+    <ClCompile Include="HelperTileData.cpp">
+      <Filter>Fichiers sources\Data\Tiles\BlockTiles\SensorTiles</Filter>
+    </ClCompile>
+    <ClCompile Include="KirbabyData.cpp">
+      <Filter>Fichiers sources\Data\Characters\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="NoPhysicBlockTileData.cpp">
+      <Filter>Fichiers sources\Data\Tiles\BlockTiles</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleTransitionData.cpp">
+      <Filter>Fichiers sources\Data\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="SensorBlockTileData.cpp">
+      <Filter>Fichiers sources\Data\Tiles\BlockTiles\SensorTiles</Filter>
+    </ClCompile>
+    <ClCompile Include="SensorSlopeTileData.cpp">
+      <Filter>Fichiers sources\Data\Tiles\SlopeTiles</Filter>
+    </ClCompile>
+    <ClCompile Include="SolidBlockTileData.cpp">
+      <Filter>Fichiers sources\Data\Tiles\BlockTiles</Filter>
+    </ClCompile>
+    <ClCompile Include="SolidSlopeTileData.cpp">
+      <Filter>Fichiers sources\Data\Tiles\SlopeTiles</Filter>
     </ClCompile>
     <ClCompile Include="TimedTileData.cpp">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers sources\Data\Tiles\BlockTiles</Filter>
     </ClCompile>
-    <ClCompile Include="TimedTileRenderingSystem.cpp">
-      <Filter>Fichiers sources</Filter>
+    <ClCompile Include="ConfigManager.cpp">
+      <Filter>Fichiers sources\Managers</Filter>
     </ClCompile>
-    <ClCompile Include="TimedTileSystem.cpp">
-      <Filter>Fichiers sources</Filter>
+    <ClCompile Include="FontsManager.cpp">
+      <Filter>Fichiers sources\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicFactory.cpp">
+      <Filter>Fichiers sources\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationActionFactory.cpp">
+      <Filter>Fichiers sources\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="GetTileIdByPositionSystem.cpp">
+      <Filter>Fichiers sources\Systems\Getters</Filter>
+    </ClCompile>
+    <ClCompile Include="GetAnimationEntitySystem.cpp">
+      <Filter>Fichiers sources\Systems\Getters</Filter>
+    </ClCompile>
+    <ClCompile Include="GetEntitiesIdByDataIdSystem.cpp">
+      <Filter>Fichiers sources\Systems\Getters</Filter>
+    </ClCompile>
+    <ClCompile Include="GetPlayerSystem.cpp">
+      <Filter>Fichiers sources\Systems\Getters</Filter>
+    </ClCompile>
+    <ClCompile Include="EndCloseAttackCollisionSystem.cpp">
+      <Filter>Fichiers sources\Systems\Collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="EndEntityCollisionSystem.cpp">
+      <Filter>Fichiers sources\Systems\Collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="EndFallingSensorCollisionSystem.cpp">
+      <Filter>Fichiers sources\Systems\Collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="EndFootCollisionSystem.cpp">
+      <Filter>Fichiers sources\Systems\Collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="EndMonsterSensorCollisionSystem.cpp">
+      <Filter>Fichiers sources\Systems\Collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="EndPlayerTileCollisionSystem.cpp">
+      <Filter>Fichiers sources\Systems\Collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterActivatorCollisionSystem.cpp">
+      <Filter>Fichiers sources\Systems\Collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileCollisionSystem.cpp">
+      <Filter>Fichiers sources\Systems\Collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="StartRangeAttackCollisionSystem.cpp">
+      <Filter>Fichiers sources\Systems\Collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="StartPlayerTileCollisionSystem.cpp">
+      <Filter>Fichiers sources\Systems\Collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="StartMonsterSensorCollisionSystem.cpp">
+      <Filter>Fichiers sources\Systems\Collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="StartFootCollisionSystem.cpp">
+      <Filter>Fichiers sources\Systems\Collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="StartEntityCollisionSystem.cpp">
+      <Filter>Fichiers sources\Systems\Collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="StartCloseAttackCollisionSystem.cpp">
+      <Filter>Fichiers sources\Systems\Collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="StartFallingSensorCollisionSystem.cpp">
+      <Filter>Fichiers sources\Systems\Collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenCollisionSystem.cpp">
+      <Filter>Fichiers sources\Systems\Collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraSystem.cpp">
+      <Filter>Fichiers sources\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="ActivateTileAnimationSystem.cpp">
+      <Filter>Fichiers sources\Systems\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationSystem.cpp">
+      <Filter>Fichiers sources\Systems\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterAnimationSystem.cpp">
+      <Filter>Fichiers sources\Systems\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterFootAdjustmentSystem.cpp">
+      <Filter>Fichiers sources\Systems\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterMovingTileSystem.cpp">
+      <Filter>Fichiers sources\Systems\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterPhysicSystem.cpp">
+      <Filter>Fichiers sources\Systems\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterSlopeTileSystem.cpp">
+      <Filter>Fichiers sources\Systems\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="ClearDyingMonstersSystem.cpp">
+      <Filter>Fichiers sources\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="CloseAttackSystem.cpp">
+      <Filter>Fichiers sources\Systems\Patterns\Attacks</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultStatesSystem.cpp">
+      <Filter>Fichiers sources\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogInputSystem.cpp">
+      <Filter>Fichiers sources\Systems\Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogRenderingSystem.cpp">
+      <Filter>Fichiers sources\Systems\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogSystem.cpp">
+      <Filter>Fichiers sources\Systems\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="DoorTileInputSystem.cpp">
+      <Filter>Fichiers sources\Systems\Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawableRenderingSystem.cpp">
+      <Filter>Fichiers sources\Systems\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="FixLayerRenderingSystem.cpp">
+      <Filter>Fichiers sources\Systems\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="GroundCharacterAnimationSystem.cpp">
+      <Filter>Fichiers sources\Systems\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupTileSystem.cpp">
+      <Filter>Fichiers sources\Systems\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GroundCharacterStateSystem.cpp">
+      <Filter>Fichiers sources\Systems\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="HelperTileInputSystem.cpp">
+      <Filter>Fichiers sources\Systems\Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="HelperTileRenderingSystem.cpp">
+      <Filter>Fichiers sources\Systems\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="InfiniteMovementSystem.cpp">
+      <Filter>Fichiers sources\Systems\Patterns\Movements</Filter>
+    </ClCompile>
+    <ClCompile Include="KillSystem.cpp">
+      <Filter>Fichiers sources\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicToPositionSystem.cpp">
+      <Filter>Fichiers sources\Systems\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterRenderingSystem.cpp">
+      <Filter>Fichiers sources\Systems\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerDataRenderingSystem.cpp">
+      <Filter>Fichiers sources\Systems\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerElementalTypeAnimationSystem.cpp">
+      <Filter>Fichiers sources\Systems\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerElementalTypeSystem.cpp">
+      <Filter>Fichiers sources\Systems\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerInputSystem.cpp">
+      <Filter>Fichiers sources\Systems\Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileClearSystem.cpp">
+      <Filter>Fichiers sources\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectilePhysicSystem.cpp">
+      <Filter>Fichiers sources\Systems\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileSystem.cpp">
+      <Filter>Fichiers sources\Systems\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="RangeAttackSystem.cpp">
+      <Filter>Fichiers sources\Systems\Patterns\Attacks</Filter>
+    </ClCompile>
+    <ClCompile Include="ResetTileRenderingSystem.cpp">
+      <Filter>Fichiers sources\Systems\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="ResetTileSystem.cpp">
+      <Filter>Fichiers sources\Systems\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteRenderingSystem.cpp">
+      <Filter>Fichiers sources\Systems\Rendering</Filter>
     </ClCompile>
     <ClCompile Include="TransitionSystem.cpp">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers sources\Systems\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="TimedTileSystem.cpp">
+      <Filter>Fichiers sources\Systems\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="TimedTileRenderingSystem.cpp">
+      <Filter>Fichiers sources\Systems\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="TimedMovementSystem.cpp">
+      <Filter>Fichiers sources\Systems\Patterns\Movements</Filter>
+    </ClCompile>
+    <ClCompile Include="TilePhysicSystem.cpp">
+      <Filter>Fichiers sources\Systems\Physics</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AbstractCharacterData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="AbstractChickenBossData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="AbstractChickenData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="AbstractEntityData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="AbstractGameScreenState.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="AbstractLayerData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="AbstractMonsterData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="AbstractPlayerData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="AbstractProjectileData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="AbstractRatData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="AbstractScreen.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="AbstractSensorTileData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="AbstractShapeEntityData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="AbstractSlopeTileData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="AbstractSnakeData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="AbstractSolidBlockTileData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="AbstractSpriteEntityData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="AbstractTileData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="ActivateTileAnimationComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="ActivateTileAnimationSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="AnimationActionFactory.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="AnimationActionType.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="AnimationComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="AnimationIdComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="AnimationPlayerData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="AnimationRatData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="AnimationStateComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="AnimationSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
     <ClInclude Include="b2GLDraw.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="BaseTileType.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="BlockAnimationTimerComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="BonusTileComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="BonusTileData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="BonusType.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="BreakableTileComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="BreakableTileData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="CameraComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="CameraSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="CharacterAnimationSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="CharacterComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="CharacterFootAdjustmentSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="CharacterMovingTileSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="CharacterOrientation.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="CharacterOrientationComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="CharacterPhysicSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="CharacterSlopeTileComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="CharacterSlopeTileSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="CheckpointTileComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="CheckpointTileData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="ChickenBossPatternComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="ChickenBossProjectileData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="ClearDyingMonstersSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="CloseAttackDataComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="CloseAttackPatternComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="CloseAttackSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="CloseAttackTriggerComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="ConfigAction.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="ConfigManager.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="ContactsHelper.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
     <ClInclude Include="ContactsListener.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="CreditsScreen.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="DamagedComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="DataIdComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
     <ClInclude Include="DataRegister.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="DecorativeTileData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="DecorativeTileType.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="DefaultPatternComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="DefaultStateComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="DefaultStatesSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="DialogComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="DialogData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="DialogInputSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="DialogRenderingSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="DialogSide.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="DialogSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="DisableComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="DoorTileComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="DoorTileData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="DoorTileInputSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="DrawableComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="DrawableRenderingSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="DyingComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="ElementalAnimationOffsetComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="ElementalTileComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="ElementalTileData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="ElementalType.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="ElementalTypeComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="EndBodySensorCollisionComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="EndCloseAttackCollisionComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="EndCloseAttackCollisionSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="EndEntityCollisionComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="EndEntityCollisionSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="EndFallingSensorCollisionComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="EndFallingSensorCollisionSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="EndFootCollisionComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="EndFootCollisionSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="EndMonsterSensorCollisionComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="EndMonsterSensorCollisionSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="EndPlayerTileCollisionSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="EndRangeAttackCollisionComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="FallingTriggerComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="FixLayerComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="FixLayerData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="FixLayerRenderingSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="FontsManager.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="GameChickenBossData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="GameChickenData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="GameOption.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="GamePlayerComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="GamePlayerData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="GameRatData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="GameScreen.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="GameScreenAnimationState.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="GameScreenDeadPlayerState.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="GameScreenInformationState.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="GameScreenLoader.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="GameScreenLoadingState.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="GameScreenLoadingThread.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="GameScreenPauseState.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="GameScreenRunningState.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="GameScreenStartState.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="GameSnakeData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="GameTitleScreen.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="GetAnimationEntitySystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="GetEntitiesIdByDataIdSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="GetPlayerSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="GetTileIdByPositionSystem.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
     <ClInclude Include="glext.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="GroundCharacterAnimationComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="GroundCharacterAnimationSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="GroundCharacterState.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="GroundCharacterStateComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="GroundCharacterStateSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="GroupComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="GroupSolidBlockTileData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="GroupSolidSlopeTileData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="GroupTileSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="Helpers.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="HelperTileComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="HelperTileData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="HelperTileInputSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="HelperTileRenderingSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="InfiniteMovementComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="InfiniteMovementSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="InputManager.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
     <ClInclude Include="json.hpp">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="KillComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="KillSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="KirbabyData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="LayerLevel.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="LifeComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="MapManager.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="MonsterActivatorCollisionComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="MonsterActivatorCollisionSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="MonsterActivatorTriggerComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="MonsterComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="MonsterDamagedComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="MonsterDeathComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="MonsterRenderingSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="MusicsManager.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="NoPhysicBlockTileData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="PatternType.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="PhysicComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="PhysicFactory.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="PhysicsEntityCategory.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="PhysicsEntityCategoryHelper.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="PhysicToPositionSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="PhysicType.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="PlayerCoinsComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="PlayerDataRenderingSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="PlayerElementalTypeAnimationComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="PlayerElementalTypeAnimationSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="PlayerElementalTypeComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="PlayerElementalTypeSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="PlayerInputSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="PlayerJumpLoaderComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="PositionComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="ProjectileClearSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="ProjectileCollisionComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="ProjectileCollisionSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="ProjectileComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="ProjectilePhysicSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="ProjectileSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="RangeAttackDataComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="RangeAttackPatternComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="RangeAttackSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="RectangleTransitionData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="ResetTileComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="ResetTileRenderingSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="ResetTileSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="Screen.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="ScreenCollisionComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="ScreenCollisionSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="ScreenSide.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="ScreensManager.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="SensorBlockTileData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="SensorSlopeTileData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="SizeComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="SkipTextComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="SlopeTileComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="SlopeType.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="SolidBlockTileData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="SolidSlopeTileData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="SoundsManager.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="SoundType.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="sPlayerData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="SpriteBox.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="SpriteRenderingSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="StartBodySensorCollisionComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="StartCloseAttackCollisionComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="StartCloseAttackCollisionSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="StartEntityCollisionComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="StartEntityCollisionSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="StartFallingSensorCollisionComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="TexturesManager.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="StartFallingSensorCollisionSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="StartFootCollisionComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="StartFootCollisionSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="StartMonsterSensorCollisionComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="StartMonsterSensorCollisionSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="StartPlayerTileCollisionSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="StartRangeAttackCollisionComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="StartRangeAttackCollisionSystem.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
     <ClInclude Include="stdafx.h">
@@ -1088,41 +689,695 @@
     <ClInclude Include="targetver.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="TileComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+    <ClInclude Include="DialogComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Actions</Filter>
     </ClInclude>
-    <ClInclude Include="TilePhysicSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+    <ClInclude Include="AbstractCharacterData.h">
+      <Filter>Fichiers d%27en-tête\Data\Characters</Filter>
     </ClInclude>
-    <ClInclude Include="TimedMovementComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+    <ClInclude Include="AbstractChickenBossData.h">
+      <Filter>Fichiers d%27en-tête\Data\Characters\Monsters\ChickenBosses</Filter>
     </ClInclude>
-    <ClInclude Include="TimedMovementSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+    <ClInclude Include="AbstractChickenData.h">
+      <Filter>Fichiers d%27en-tête\Data\Characters\Monsters\Chickens</Filter>
     </ClInclude>
-    <ClInclude Include="TimedTileComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+    <ClInclude Include="AbstractEntityData.h">
+      <Filter>Fichiers d%27en-tête\Data</Filter>
     </ClInclude>
-    <ClInclude Include="TimedTileData.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+    <ClInclude Include="AbstractLayerData.h">
+      <Filter>Fichiers d%27en-tête\Data\Layers</Filter>
     </ClInclude>
-    <ClInclude Include="TimedTileRenderingSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+    <ClInclude Include="AbstractMonsterData.h">
+      <Filter>Fichiers d%27en-tête\Data\Characters\Monsters</Filter>
     </ClInclude>
-    <ClInclude Include="TimedTileSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+    <ClInclude Include="AbstractPlayerData.h">
+      <Filter>Fichiers d%27en-tête\Data\Characters\Players</Filter>
     </ClInclude>
-    <ClInclude Include="TransitionComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+    <ClInclude Include="AbstractProjectileData.h">
+      <Filter>Fichiers d%27en-tête\Data\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractRatData.h">
+      <Filter>Fichiers d%27en-tête\Data\Characters\Monsters\Rats</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractSensorTileData.h">
+      <Filter>Fichiers d%27en-tête\Data\Tiles\BlockTiles\SensorTiles</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractShapeEntityData.h">
+      <Filter>Fichiers d%27en-tête\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractSlopeTileData.h">
+      <Filter>Fichiers d%27en-tête\Data\Tiles\SlopeTiles</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractSnakeData.h">
+      <Filter>Fichiers d%27en-tête\Data\Characters\Monsters\Snakes</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractSolidBlockTileData.h">
+      <Filter>Fichiers d%27en-tête\Data\Tiles\BlockTiles</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractSpriteEntityData.h">
+      <Filter>Fichiers d%27en-tête\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractTileData.h">
+      <Filter>Fichiers d%27en-tête\Data\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="ActivateTileAnimationComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationActionFactory.h">
+      <Filter>Fichiers d%27en-tête\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationActionType.h">
+      <Filter>Fichiers d%27en-tête\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationIdComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationPlayerData.h">
+      <Filter>Fichiers d%27en-tête\Data\Characters\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationRatData.h">
+      <Filter>Fichiers d%27en-tête\Data\Characters\Monsters\Rats</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationStateComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractGameScreenState.h">
+      <Filter>Fichiers d%27en-tête\Screens\States</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractScreen.h">
+      <Filter>Fichiers d%27en-tête\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="ActivateTileAnimationSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseTileType.h">
+      <Filter>Fichiers d%27en-tête\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="BonusTileData.h">
+      <Filter>Fichiers d%27en-tête\Data\Tiles\BlockTiles\SensorTiles</Filter>
+    </ClInclude>
+    <ClInclude Include="BonusTileComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="BonusType.h">
+      <Filter>Fichiers d%27en-tête\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="BreakableTileData.h">
+      <Filter>Fichiers d%27en-tête\Data\Tiles\BlockTiles</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockAnimationTimerComponent.h">
+      <Filter>Fichiers d%27en-tête\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="BreakableTileComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraComponent.h">
+      <Filter>Fichiers d%27en-tête\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterAnimationSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterFootAdjustmentSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterMovingTileSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterOrientation.h">
+      <Filter>Fichiers d%27en-tête\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterPhysicSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterSlopeTileSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="ClearDyingMonstersSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="CloseAttackSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Patterns\Attacks</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigAction.h">
+      <Filter>Fichiers d%27en-tête\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigManager.h">
+      <Filter>Fichiers d%27en-tête\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="CreditsScreen.h">
+      <Filter>Fichiers d%27en-tête\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultStatesSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogRenderingSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogInputSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="DoorTileInputSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawableRenderingSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="EndCloseAttackCollisionSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="EndEntityCollisionSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="EndFootCollisionSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="EndFallingSensorCollisionSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="EndPlayerTileCollisionSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="EndMonsterSensorCollisionSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="FixLayerRenderingSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="GetAnimationEntitySystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Getters</Filter>
+    </ClInclude>
+    <ClInclude Include="GetEntitiesIdByDataIdSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Getters</Filter>
+    </ClInclude>
+    <ClInclude Include="GetPlayerSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Getters</Filter>
+    </ClInclude>
+    <ClInclude Include="GetTileIdByPositionSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Getters</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileClearSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="KillSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="GroundCharacterAnimationSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="GroundCharacterStateSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupTileSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="HelperTileInputSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="HelperTileRenderingSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="InfiniteMovementSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Patterns\Movements</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterActivatorCollisionSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterRenderingSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicToPositionSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerDataRenderingSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerElementalTypeAnimationSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerElementalTypeSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInputSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileCollisionSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="StartRangeAttackCollisionSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="StartPlayerTileCollisionSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="StartMonsterSensorCollisionSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="StartFootCollisionSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="StartFallingSensorCollisionSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="StartEntityCollisionSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="StartCloseAttackCollisionSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenCollisionSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Collisions</Filter>
     </ClInclude>
     <ClInclude Include="TransitionSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+      <Filter>Fichiers d%27en-tête\Systems\Actions</Filter>
     </ClInclude>
-    <ClInclude Include="TransitionType.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+    <ClInclude Include="TimedTileSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="TimedTileRenderingSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="TimedMovementSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Patterns\Movements</Filter>
+    </ClInclude>
+    <ClInclude Include="TilePhysicSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteRenderingSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="ResetTileSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="ResetTileRenderingSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="RangeAttackSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Patterns\Attacks</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectilePhysicSystem.h">
+      <Filter>Fichiers d%27en-tête\Systems\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>Fichiers d%27en-tête\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTitleScreen.h">
+      <Filter>Fichiers d%27en-tête\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreen.h">
+      <Filter>Fichiers d%27en-tête\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="TexturesManager.h">
+      <Filter>Fichiers d%27en-tête\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreensManager.h">
+      <Filter>Fichiers d%27en-tête\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicsManager.h">
+      <Filter>Fichiers d%27en-tête\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundsManager.h">
+      <Filter>Fichiers d%27en-tête\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManager.h">
+      <Filter>Fichiers d%27en-tête\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Fichiers d%27en-tête\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="FontsManager.h">
+      <Filter>Fichiers d%27en-tête\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreenLoader.h">
+      <Filter>Fichiers d%27en-tête\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreenLoadingThread.h">
+      <Filter>Fichiers d%27en-tête\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicFactory.h">
+      <Filter>Fichiers d%27en-tête\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterOrientationComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterSlopeTileComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckpointTileComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="ChickenBossPatternComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Patterns\Bosses</Filter>
+    </ClInclude>
+    <ClInclude Include="CloseAttackPatternComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Patterns\Attacks</Filter>
+    </ClInclude>
+    <ClInclude Include="CloseAttackDataComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="CloseAttackTriggerComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Triggers</Filter>
+    </ClInclude>
+    <ClInclude Include="DamagedComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="DataIdComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultPatternComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultStateComponent.h">
+      <Filter>Fichiers d%27en-tête\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="DisableComponent.h">
+      <Filter>Fichiers d%27en-tête\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="DoorTileComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckpointTileData.h">
+      <Filter>Fichiers d%27en-tête\Data\Tiles\BlockTiles\SensorTiles</Filter>
+    </ClInclude>
+    <ClInclude Include="ChickenBossProjectileData.h">
+      <Filter>Fichiers d%27en-tête\Data\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="DecorativeTileData.h">
+      <Filter>Fichiers d%27en-tête\Data\Tiles\BlockTiles</Filter>
+    </ClInclude>
+    <ClInclude Include="DecorativeTileType.h">
+      <Filter>Fichiers d%27en-tête\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogData.h">
+      <Filter>Fichiers d%27en-tête\Data\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogSide.h">
+      <Filter>Fichiers d%27en-tête\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="DoorTileData.h">
+      <Filter>Fichiers d%27en-tête\Data\Tiles\BlockTiles\SensorTiles</Filter>
+    </ClInclude>
+    <ClInclude Include="ElementalTileData.h">
+      <Filter>Fichiers d%27en-tête\Data\Tiles\BlockTiles\SensorTiles</Filter>
+    </ClInclude>
+    <ClInclude Include="FixLayerData.h">
+      <Filter>Fichiers d%27en-tête\Data\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameChickenData.h">
+      <Filter>Fichiers d%27en-tête\Data\Characters\Monsters\Chickens</Filter>
+    </ClInclude>
+    <ClInclude Include="GameChickenBossData.h">
+      <Filter>Fichiers d%27en-tête\Data\Characters\Monsters\ChickenBosses</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlayerData.h">
+      <Filter>Fichiers d%27en-tête\Data\Characters\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRatData.h">
+      <Filter>Fichiers d%27en-tête\Data\Characters\Monsters\Rats</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSnakeData.h">
+      <Filter>Fichiers d%27en-tête\Data\Characters\Monsters\Snakes</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupSolidBlockTileData.h">
+      <Filter>Fichiers d%27en-tête\Data\Tiles\BlockTiles</Filter>
+    </ClInclude>
+    <ClInclude Include="SensorBlockTileData.h">
+      <Filter>Fichiers d%27en-tête\Data\Tiles\BlockTiles\SensorTiles</Filter>
+    </ClInclude>
+    <ClInclude Include="SolidBlockTileData.h">
+      <Filter>Fichiers d%27en-tête\Data\Tiles\BlockTiles</Filter>
+    </ClInclude>
+    <ClInclude Include="SensorSlopeTileData.h">
+      <Filter>Fichiers d%27en-tête\Data\Tiles\SlopeTiles</Filter>
+    </ClInclude>
+    <ClInclude Include="SolidSlopeTileData.h">
+      <Filter>Fichiers d%27en-tête\Data\Tiles\SlopeTiles</Filter>
+    </ClInclude>
+    <ClInclude Include="RectangleTransitionData.h">
+      <Filter>Fichiers d%27en-tête\Data\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="NoPhysicBlockTileData.h">
+      <Filter>Fichiers d%27en-tête\Data\Tiles\BlockTiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupSolidSlopeTileData.h">
+      <Filter>Fichiers d%27en-tête\Data\Tiles\SlopeTiles</Filter>
+    </ClInclude>
+    <ClInclude Include="KirbabyData.h">
+      <Filter>Fichiers d%27en-tête\Data\Characters\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawableComponent.h">
+      <Filter>Fichiers d%27en-tête\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupComponent.h">
+      <Filter>Fichiers d%27en-tête\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="KillComponent.h">
+      <Filter>Fichiers d%27en-tête\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicComponent.h">
+      <Filter>Fichiers d%27en-tête\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="DyingComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="ElementalAnimationOffsetComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="EndBodySensorCollisionComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="EndCloseAttackCollisionComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="EndEntityCollisionComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="EndFallingSensorCollisionComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="EndFootCollisionComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="EndMonsterSensorCollisionComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="EndRangeAttackCollisionComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="FixLayerComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="ElementalTypeComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="ElementalTileComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="FallingTriggerComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Triggers</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlayerComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Characters\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="GroundCharacterAnimationComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="GroundCharacterStateComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="InfiniteMovementComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Patterns\Movements</Filter>
+    </ClInclude>
+    <ClInclude Include="LifeComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerElementalTypeAnimationComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterActivatorCollisionComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterActivatorTriggerComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Triggers</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCoinsComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Characters\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterDeathComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Characters\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterDamagedComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Characters\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Characters\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="HelperTileComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerElementalTypeComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Characters\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerJumpLoaderComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Characters\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="StartRangeAttackCollisionComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="StartMonsterSensorCollisionComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="StartFootCollisionComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="StartFallingSensorCollisionComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="StartEntityCollisionComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="StartCloseAttackCollisionComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="StartBodySensorCollisionComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenCollisionComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileCollisionComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="TimedMovementComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Patterns\Movements</Filter>
+    </ClInclude>
+    <ClInclude Include="TimedTileComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="TileComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="SlopeTileComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="ResetTileComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="SizeComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Data</Filter>
     </ClInclude>
     <ClInclude Include="VelocityComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+      <Filter>Fichiers d%27en-tête\Components\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="PositionComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="SkipTextComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="TransitionComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="RangeAttackPatternComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Patterns\Attacks</Filter>
+    </ClInclude>
+    <ClInclude Include="RangeAttackDataComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileComponent.h">
+      <Filter>Fichiers d%27en-tête\Components\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreenAnimationState.h">
+      <Filter>Fichiers d%27en-tête\Screens\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreenDeadPlayerState.h">
+      <Filter>Fichiers d%27en-tête\Screens\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreenInformationState.h">
+      <Filter>Fichiers d%27en-tête\Screens\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreenLoadingState.h">
+      <Filter>Fichiers d%27en-tête\Screens\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreenPauseState.h">
+      <Filter>Fichiers d%27en-tête\Screens\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreenRunningState.h">
+      <Filter>Fichiers d%27en-tête\Screens\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreenStartState.h">
+      <Filter>Fichiers d%27en-tête\Screens\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GroundCharacterState.h">
+      <Filter>Fichiers d%27en-tête\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="ElementalType.h">
+      <Filter>Fichiers d%27en-tête\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOption.h">
+      <Filter>Fichiers d%27en-tête\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="HelperTileData.h">
+      <Filter>Fichiers d%27en-tête\Data\Tiles\BlockTiles\SensorTiles</Filter>
+    </ClInclude>
+    <ClInclude Include="TimedTileData.h">
+      <Filter>Fichiers d%27en-tête\Data\Tiles\BlockTiles</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerLevel.h">
+      <Filter>Fichiers d%27en-tête\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="PatternType.h">
+      <Filter>Fichiers d%27en-tête\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsEntityCategory.h">
+      <Filter>Fichiers d%27en-tête\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsEntityCategoryHelper.h">
+      <Filter>Fichiers d%27en-tête\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicType.h">
+      <Filter>Fichiers d%27en-tête\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenSide.h">
+      <Filter>Fichiers d%27en-tête\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="SlopeType.h">
+      <Filter>Fichiers d%27en-tête\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="sPlayerData.h">
+      <Filter>Fichiers d%27en-tête\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundType.h">
+      <Filter>Fichiers d%27en-tête\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="TransitionType.h">
+      <Filter>Fichiers d%27en-tête\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteBox.h">
+      <Filter>Fichiers d%27en-tête\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers.h">
+      <Filter>Fichiers d%27en-tête\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="ContactsHelper.h">
+      <Filter>Fichiers d%27en-tête\Helpers</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
