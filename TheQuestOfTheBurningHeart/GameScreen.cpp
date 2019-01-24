@@ -21,6 +21,7 @@ GameScreen::GameScreen()
 	m_gameScreenLoader(nullptr),
 	m_gameLevel(1),
 	m_doorTileInputSystem(*this),
+	m_startPlayerTileCollisionSystem(*this),
 	m_startEntityCollisionSystem(*this),
 	m_screenCollisionSystem(*this),
 	m_closeAttackSystem(*this),

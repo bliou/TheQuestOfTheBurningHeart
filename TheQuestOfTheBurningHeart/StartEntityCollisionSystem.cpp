@@ -6,9 +6,9 @@
 #include "LifeComponent.h"
 #include "GameScreen.h"
 #include "GameScreenDeadPlayerState.h"
-#include "BreakableTileComponent.h"
 #include "SoundsManager.h"
 #include "MusicsManager.h"
+#include "PlayerJumpLoaderComponent.h"
 
 StartEntityCollisionSystem::StartEntityCollisionSystem(GameScreen& gameInstance)
 	: m_gameInstance(gameInstance)
@@ -20,13 +20,13 @@ void StartEntityCollisionSystem::update(float elapsedTime)
 	auto entities = getEntities();
 	for (auto& entity : entities)
 	{
-		if (entity.hasComponent<GamePlayerComponent>())
+		auto collidedEntitiesId = entity.getComponent<StartEntityCollisionComponent>().collidedEntitiesId;
+		for (uint64_t collidedEntityId : collidedEntitiesId)
 		{
-			auto collidedEntitiesId = entity.getComponent<StartEntityCollisionComponent>().collidedEntitiesId;
-			for (uint64_t collidedEntityId : collidedEntitiesId)
-			{
-				anax::Entity collidedEntity = entity.getWorld().getEntity(collidedEntityId);
+			anax::Entity collidedEntity = entity.getWorld().getEntity(collidedEntityId);
 
+			if (entity.hasComponent<GamePlayerComponent>())
+			{
 				if (collidedEntity.hasComponent<MonsterComponent>()
 					&& !collidedEntity.hasComponent<DisableComponent>()
 					&& collidedEntity.hasComponent<GroundCharacterStateComponent>()) {
@@ -37,30 +37,32 @@ void StartEntityCollisionSystem::update(float elapsedTime)
 						SoundsManager::playSound(SoundType::PLAYER_DEATH);
 					}
 				}
+			}
+			if (collidedEntity.hasComponent<TileComponent>()
+				&& entity.hasComponent<CharacterComponent>()
+				&& entity.hasComponent<GroundCharacterStateComponent>())
+			{
+				sf::Vector2f tilePosition = collidedEntity.getComponent<PositionComponent>().position;
+				sf::Vector2i tileSize = collidedEntity.getComponent<SizeComponent>().size;
 
-				if (collidedEntity.hasComponent<BreakableTileComponent>()) {
-					auto& breakableTileComponent = collidedEntity.getComponent<BreakableTileComponent>();
+				sf::Vector2f entityPosition = entity.getComponent<PositionComponent>().position;
+				sf::Vector2i entitySize = entity.getComponent<SizeComponent>().size;
 
-					sf::Vector2f tilePosition = collidedEntity.getComponent<PositionComponent>().position;
-					sf::Vector2i tileSize = collidedEntity.getComponent<SizeComponent>().size;
+				entityPosition.y -= entitySize.y / 2.f;
 
-					sf::Vector2f playerPosition = entity.getComponent<PositionComponent>().position;
-					sf::Vector2i playerSize = entity.getComponent<SizeComponent>().size;
+				if (entityPosition.y > tilePosition.y + tileSize.y)
+				{
+					auto& state = entity.getComponent<GroundCharacterStateComponent>().state;
+					if (state == GroundCharacterState::JUMP)
+						state = GroundCharacterState::FALL;
 
-					playerPosition.y -= playerSize.y / 2.f;
-
-					if (!breakableTileComponent.broken
-						&& playerPosition.y > tilePosition.y + tileSize.y) {
-						breakableTileComponent.broken = true;
-						if (breakableTileComponent.tileToCreate != "")
-							m_gameInstance.addEntityToCreate(
-								breakableTileComponent.tileToCreate,
-								tilePosition
-							);
+					if (entity.hasComponent<PlayerJumpLoaderComponent>()) {
+						entity.removeComponent<PlayerJumpLoaderComponent>();
 					}
 				}
 			}
 		}
+
 		entity.removeComponent<StartEntityCollisionComponent>();
 		entity.activate();
 	}

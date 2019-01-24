@@ -9,12 +9,16 @@
 #include "PlayerCoinsComponent.h"
 #include "PlayerElementalTypeComponent.h"
 #include "ElementalTypeComponent.h"
+#include "BreakableTileComponent.h"
 #include "ElementalType.h"
 #include "ResetTileComponent.h"
 #include "DisableComponent.h"
+#include "SizeComponent.h"
 #include "SoundsManager.h"
+#include "GameScreen.h"
 
-StartPlayerTileCollisionSystem::StartPlayerTileCollisionSystem()
+StartPlayerTileCollisionSystem::StartPlayerTileCollisionSystem(GameScreen& gameInstance)
+	: m_gameInstance(gameInstance)
 {
 }
 
@@ -99,6 +103,28 @@ void StartPlayerTileCollisionSystem::update(float elapsedTime)
 				else {
 					collidedEntity.kill();
 					collidedEntity.activate();
+				}
+			}
+
+			if (collidedEntity.hasComponent<BreakableTileComponent>()) {
+				auto& breakableTileComponent = collidedEntity.getComponent<BreakableTileComponent>();
+
+				sf::Vector2f tilePosition = collidedEntity.getComponent<PositionComponent>().position;
+				sf::Vector2i tileSize = collidedEntity.getComponent<SizeComponent>().size;
+
+				sf::Vector2f playerPosition = entity.getComponent<PositionComponent>().position;
+				sf::Vector2i playerSize = entity.getComponent<SizeComponent>().size;
+
+				playerPosition.y -= playerSize.y / 2.f;
+
+				if (!breakableTileComponent.broken
+					&& playerPosition.y > tilePosition.y + tileSize.y) {
+					breakableTileComponent.broken = true;
+					if (breakableTileComponent.tileToCreate != "")
+						m_gameInstance.addEntityToCreate(
+							breakableTileComponent.tileToCreate,
+							tilePosition
+						);
 				}
 			}
 		}

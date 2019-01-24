@@ -38,14 +38,16 @@ void PlayerInputSystem::updateEvent(bool releasedOnly)
 		}
 		if (InputManager::keyReleased(sf::Keyboard::Left)) {
 			if (orientation == CharacterOrientation::LEFT) {
-				state = GroundCharacterState::IDLE;
-				velocity = b2Vec2(0.f, 0.f);
+				if (state == GroundCharacterState::WALK)
+					state = GroundCharacterState::IDLE;
+				velocity.x = 0.f;
 			}
 		}
 		if (InputManager::keyReleased(sf::Keyboard::Right)) {
 			if (orientation == CharacterOrientation::RIGHT) {
-				state = GroundCharacterState::IDLE;
-				velocity = b2Vec2(0.f, 0.f);
+				if (state == GroundCharacterState::WALK)
+					state = GroundCharacterState::IDLE;
+				velocity.x = 0.f;
 			}
 		}
 		if ((state == GroundCharacterState::IDLE
